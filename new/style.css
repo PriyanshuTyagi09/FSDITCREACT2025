@@ -1,0 +1,38 @@
+/* body{
+    background-color: aqua;
+}
+h1{
+    background-color: brown;
+    color: #469b41;
+} */
+/* h1,p,h2{
+    background-color: rgb(88, 61, 142);
+    color: aliceblue;
+}
+#heading1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+} */
+ div~p{
+    background-color: blueviolet;
+ }
+ p:hover{
+    background-color: rgb(34, 90, 135);
+    font-size: x-large;
+    color:brown
+ }
+
+ p::after{
+    content:"React development";
+    background-color:blanchedalmond;
+ }
+ p::selection{
+    background-color: chocolate;
+ }
+
+ p:nth-child(2){
+    background-color: black;
+ }
+ 
+ 
+
