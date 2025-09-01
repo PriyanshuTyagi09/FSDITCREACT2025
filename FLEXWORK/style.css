@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(254, 254, 252);
+    border: 1px solid rebeccapurple;
+    /* gap: 10px; */
+}
+
+.child1{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    border: 1px dotted red;
+    /* order: 2; */
+}
+
+.child2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(106, 27, 55);
+    border: 1px dotted red;
+}
+
+.child3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(23, 137, 53);
+    border: 1px dotted red;
+}
+
+.child4{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(43, 25, 129);
+    border: 1px dotted red;
+}

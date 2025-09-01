@@ -1,0 +1,56 @@
+.box{
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: 200px 500px 200px;
+}
+
+.box1{
+    border:1px dotted red;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; */
+}
+
+.box11{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: rgba(184, 205, 76, 0.214);
+}
+.box12{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: rgba(105, 5, 10, 0.671);
+}
+.box13{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: blueviolet;
+}
+.box14{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: rgb(28, 102, 206);
+}
+.box2{
+    border:1px dotted red;
+    background-color: rgb(130, 10, 40);
+}
+
+.box3{
+    border:1px dotted red;
+    background-color: rgb(42, 27, 131);
+}
+
+.box4{
+    border:1px dotted red;
+    background-color: rgb(68, 118, 82);
+}
